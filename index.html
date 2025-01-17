@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistia</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo"> 
+                <p>Beyond The Best - Assistia</p>
+            </div>
+            <div class="link">
+                <a href="#"><i class="fab fa-facebook"> &nbsp; Facebook</i></a>
+                <a href="#"><i class="fab fa-instagram"> &nbsp; Instagram</i> </a>
+                <a href="#"><i class="fab fa-twitter"> &nbsp; Twitter</i> </a>
+            </div>
+        </div>
+    </header>
+   
+    <header class="header1">
+        <div class="container">
+            <div class="logo"><img src="logo1.png"></div>
+            <nav>
+                <ul class="navbar">
+                    <div id="close-navbar" class="fas fa-times"></div>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+           
+
+            <div class="button">
+                <button class="lbtn">Login</button>
+                <button class="cbtn">Contact</button>
+            </div>
+            
+            <div class="icons" >
+                <div id="menu-btn" class='fas fa-bars'></div>
+            </div>
+        </div>
+    </header>
+    
+    <script>
+        let navbar=document.querySelector('.navbar');
+        
+        document.querySelector('#menu-btn').onclick= () =>{
+            navbar.classList.toggle('active');
+        }
+        document.querySelector('#close-navbar').onclick= () =>{
+            navbar.classList.remove('active');
+        }
+        
+        window.onscroll= () =>{
+            navbar.classList.remove('active');
+          
+        };
+        </script>
+
+
+
+    <section class="home">
+       
+        <div class="container">
+            <div class="content">
+                <h1>Empowering Your Business With Innovative IT Solutions</h1><br>
+                <p> We are a forward-thinking tech company dedicated to creating innovative solutions that solve today's most pressing challenges.</p><br>
+                <button class="con-btn">Contact Us</button>
+            </div>
+
+            <div class="image">
+                <img src="h4.jpg" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="home1 hidden">
+        <h1>Trusted Brands We Work With - Our Valued Clients</h1><br>
+       
+        <div class="features">
+            <div class="feature">
+               <img src="about.png">
+            </div>
+            <div class="feature">
+                <img src="about1.png">
+            </div>
+            <div class="feature">
+                <img src="about2.png">
+            </div>
+            <div class="feature">
+                <img src="about3.png">
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="home2 hidden">
+        <div class="container">
+            <div class="content">
+                <button class="contact-btn">Services</button>
+                <h1>Explore Our Wide Range of Services</h1>
+                <p>Empowering Businesses with Innovative IT Solutions Tailored for Growth and Success</p>
+               
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="home3 hidden" id="home3">
+        <div class="image">
+            <img src="h2.avif" alt="">
+        </div>
+        <div class="content">
+            <h3>Web & Mobile App<br> Development</h3>
+            <p>Custom web and mobile app development to elevate your business with seamless, innovative solutions </p>
+             <ul>
+                <li>web</li>
+                <li>Android</li>
+                <li>iOS</li>
+                <li>Desktop</li>
+            </ul>
+           <a href="" > <button class="cbtn">View Pricing</button></a>
+        </div>
+    </section>
+
+    <section class="home4 hidden">
+        <div class="content">
+            <h3>Digital Marketing<br> solutions</h3>
+            <p>Effective digital marketing strategies to grow your brand, engage customers, and drive results.</p>
+             <ul>
+                <li>Social media Management</li>
+                <li>Email Marketing</li>
+                <li>SMS Promotions</li>
+                <li>Graphic Designing</li>
+            </ul>
+           <a href="" > <button class="cbtn">View Pricing</button></a>
+        </div>
+    
+        <div class="image">
+            <img src="h3.avif" alt="">
+        </div>
+        
+    </section>
+
+    <section class="home5 hidden">
+       
+        <div class="image">
+            <img src="h6.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Industrial Training</h3>
+            <p>On-the-job training provides hands-on experience, helping to develop skills in real work environments. It boosts productivity, enhances performance, and fosters growth</p>
+             <ul>
+                <li>Bootcamps</li>
+                <li>Real Projects</li>
+                <li>Individual Guiding</li>
+                
+            </ul>
+           <a href="" > <button class="cbtn">View Pricing</button></a>
+        </div>
+    </section>
+
+    <section class="home6 hidden">
+        <div class="container">
+            <div class="content">
+                <button class="contact-btn">Why Choose Us</button>
+                <h1>Committed to Your Success</h1>
+                <p>Providing expert solutions, innovation, and reliability to drive your business success</p>
+                <p>&</p>
+               
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="home7">
+        <div class="features">
+            <div class="feature">
+                <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                <h2>Responsive</h2>
+                <p>Mobile-friendly, adaptable designs that work seamlessly on all devices and platforms.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
+                <h2>Speed</h2>
+                <p>Delivering fast, efficient solutions to keep your business ahead of the competition.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fas fa-handshake"></i></div>
+                <h2>Trust</h2>
+                <p>Building long-term client relationships through reliability, quality, and transparency.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fas fa-lock"></i></div>
+                <h2>Secure</h2>
+                <p>Advanced security measures to protect your data and ensure complete confidentiality.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                <h2>Cost Effective</h2>
+                <p>High-quality services tailored to your budget without compromising on performance.</p>
+            </div>
+            <div class="feature">
+                <div class="icon"><i class="fas fa-headset"></i></div>
+                <h2>Support</h2>
+                <p>Dedicated customer support ensuring timely assistance and seamless project execution.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="home8 hidden">
+       
+        <div class="home8-content">
+          <button class="con-btn">Contact us</button>
+          <h1>Your Next Step Starts Here</h1>
+          <p>Take the first step toward success - reach out to us and turn your ideas into reality today</p>
+          <div class="buttons">
+            <button class="trial">Start Free Trial</button>
+            <button class="demo">Book A Demo</button>
+          </div>
+        </div>
+        
+      </section>
+
+     
+      
+  <footer class="footer">
+
+    <div class="con">
+        <p>Contact &nbsp; | &nbsp; <i class="fas fa-phone-alt"></i> +94 76 447 22 22 &nbsp; | &nbsp; <i class="fas fa-envelope"></i> SUPPORT@ASSISTIA.LK</p>
+
+
+      <div class="links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="#"><i class="fab fa-twitter"></i> </a>
+        <a href="#"><i class="fab fa-pinterest"></i> </a>
+    </div>
+    </div>
+    
+   
+    <div class="f-link">
+      <div class="f-links">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Our Program</a></li>
+          <li><a href="#">Work With Us</a></li>
+        </ul>
+      </div>
+      <div class="f-links">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Pricing Plans</a></li>
+          <li><a href="#">Referral Program</a></li>
+          <li><a href="#">Payment Gateway</a></li>
+        </ul>
+      </div>
+      <div class="f-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Data Centers</a></li>
+        </ul>
+      </div>
+      <div class="f-links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#">Blog & News</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li><a href="#">Our Features</a></li>
+          <li><a href="#">Compare Other</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="foot">
+      <div class="f-logo">
+        <img src="logo1.png" alt="Assistia Logo">
+        <p>Beyond The Best!</p>
+      </div>
+      <div class="f-info">
+      <h6>Copyright © 2016-2025 - By <strong style="color: rgb(0, 32, 31);">Assistia (PVT) LTD</strong></h6>
+      <p><a href="#">Legal</a> &nbsp; | &nbsp; <a href="#">Privacy Policy</a> &nbsp; | &nbsp; <a href="#">Terms & Conditions</a> &nbsp; | &nbsp; <a href="#">Refund Policy</a></p>
+    </div>
+    </div>
+  </footer>
+
+
+<script>
+
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+
+function handleScrollAnimation() {
+  const sections = document.querySelectorAll('.home1, .home2, .home3, .home4, .home5, .home6, .home8');
+  sections.forEach(section => {
+    if (isInViewport(section)) {
+      section.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', handleScrollAnimation);
+document.addEventListener('DOMContentLoaded', handleScrollAnimation);
+
+  </script>
+
+</body>
+</html>
+
